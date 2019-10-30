@@ -1,0 +1,7 @@
+sor_id|sor_cust_id|CustomerName|PhoneId
+1|6219|Aileen|16220112-4613
+1|6815|baskar|000000-1111
+1|2340|Veronica|16960517-2148
+2|9082|Anika|12345678-5200
+2|2340|Veronica|16960517-2148
+1|9999|sammie|7838628-2148

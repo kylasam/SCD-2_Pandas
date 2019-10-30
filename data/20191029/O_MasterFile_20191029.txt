@@ -1,0 +1,6 @@
+sor_id|sor_cust_id|CustomerName|PhoneId|Email|AddressLine
+1|6815|Jillian|000000-4025|Vadivel@utodiovel.co.uk|P.O. Box 377, 812 Sed St.
+1|9148|Anika|16551108-5200|Donec.dignissim.magna@senectus.co.uk|622-2054 Non St.
+1|8712|Mona|16050313-3308|mi.lacinia@sagittis.co.uk|3181 Non Road
+1|2340|Veronica|16960517-2148|primis.in@Vivamus.net|P.O. Box 584, 220 Amet, Rd.
+1|6219|Aileen|16220112-4613|tempus.mauris.erat@utpellentesqueeget.org|963-4642 Tincidunt. Av.

@@ -1,0 +1,39 @@
+tink=# select * from master_order;
+ customer_id | order_id | shop_id | order_mode |   item    |  brand  | order_value | timestampvalue | order_date |dispatchstatus
+-------------+----------+---------+------------+-----------+---------+----------
+ 6002 |     7002 |    8002 | SHOP       | net       | cummins |    56287.50 | 20191022061023 | 20191022   | NOT DISPATCHED
+ 6003 |     7003 |    8003 | SHOP       | bearing   | siemens |    56296.88 | 20191021091053 | 20191021   | DISPATCHED
+ 6004 |     7004 |    8004 | SHOP       | screw     | bosch   |    56306.25 | 20191022041014 | 20191022   | NOT DISPATCHED
+ 6005 |     7005 |    8005 | SHOP       | sensor    | BGR     |    56315.63 | 20191022051020 | 20191022   | DISPATCHED
+ 6006 |     7006 |    8006 | SHOP       | cleaner   | samsung |    37546.88 | 20191021091048 | 20191021   | NOT DISPATCHED
+ 6007 |     7007 |    8007 | SHOP       | siri      | apple   |    18775.00 | 20191022011048 | 20191022   | DISPATCHED
+ 6008 |     7008 |    8008 | SHOP       | Assistant | bolt    |    23647.75 | 20191021091048 | 20191021   | NOT DISPATCHED
+ 1001 |     2001 |    3001 | ONLINE     | alarm     | bosch   |     9393.75 | 20191022095110 | 20191022   | DISPATCHED
+ 1003 |     2003 |    3003 | ONLINE     | light     | siemens |     9412.50 | 20191022095110 | 20191022   | DISPATCHED
+ 1007 |     2007 |    3007 | ONLINE     | alexa     | apple   |     6296.88 | 20191022095110 | 20191022   | DISPATCHED
+ 1002 |     2002 |    3002 | ONLINE     | conn v    | cummins |     9403.13 | 20191022093410 | 20191022   | NOT DISPATCHED
+ 1004 |     2004 |    3004 | ONLINE     | conn fri  | bosch   |     9421.88 | 20191022093410 | 20191022   | NOT DISPATCHED
+ 1006 |     2006 |    3006 | ONLINE     | flr clnr  | samsung |     9440.63 | 20191022093410 | 20191022   | NOT DISPATCHED
+ 1008 |     2008 |    3008 | ONLINE     | conn door | bolt    |     3150.00 | 20191022093510 | 20191022   | NOT DISPATCHED
+(14 rows)
+
+
+
+tink=# select * from delta_order;
+ customer_id | order_id | shop_id | order_mode |   item    |  brand  | order_value | timestampvalue | order_date |dispatchstatus
+-------------+----------+---------+------------+-----------+---------+----------
+6002 |     7002 |    8002 | SHOP       | net       | cummins |    56287.50 | 20191022061023 | 20191022   | NOT DISPATCHED
+6003 |     7003 |    8003 | SHOP       | bearing   | siemens |    56296.88 | 20191021091053 | 20191021   | DISPATCHED
+6004 |     7004 |    8004 | SHOP       | screw     | bosch   |    56306.25 | 20191022041014 | 20191022   | NOT DISPATCHED
+6005 |     7005 |    8005 | SHOP       | sensor    | BGR     |    56315.63 | 20191022051020 | 20191022   | DISPATCHED
+6006 |     7006 |    8006 | SHOP       | cleaner   | samsung |    37546.88 | 20191021091048 | 20191021   | NOT DISPATCHED
+6007 |     7007 |    8007 | SHOP       | siri      | apple   |    18775.00 | 20191022011048 | 20191022   | DISPATCHED
+6008 |     7008 |    8008 | SHOP       | Assistant | bolt    |    23647.75 | 20191021091048 | 20191021   | NOT DISPATCHED
+1001 |     2001 |    3001 | ONLINE     | alarm     | bosch   |     9393.75 | 20191022095110 | 20191022   | DISPATCHED
+1003 |     2003 |    3003 | ONLINE     | light     | siemens |     9412.50 | 20191022095110 | 20191022   | DISPATCHED
+1007 |     2007 |    3007 | ONLINE     | alexa     | apple   |     6296.88 | 20191022095110 | 20191022   | DISPATCHED
+1002 |     2002 |    3002 | ONLINE     | conn v    | cummins |     9403.13 | 20191022093410 | 20191022   | NOT DISPATCHED
+1004 |     2004 |    3004 | ONLINE     | conn fri  | bosch   |     9421.88 | 20191022093410 | 20191022   | NOT DISPATCHED
+1006 |     2006 |    3006 | ONLINE     | flr clnr  | samsung |     9440.63 | 20191022093410 | 20191022   | NOT DISPATCHED
+1008 |     2008 |    3008 | ONLINE     | conn door | bolt    |     3150.00 | 20191022093510 | 20191022   | NOT DISPATCHED
+(14 rows)

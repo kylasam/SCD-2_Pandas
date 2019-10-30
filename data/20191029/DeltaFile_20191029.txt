@@ -1,0 +1,4 @@
+sor_id|sor_cust_id|CustomerName|PhoneId|CHANGE_INDICATOR
+1|6219|Aileen|16220112-4613|I
+1|6815|Jillian|000000-4025|U
+1|6319|Aileen|16220112-4613|D
